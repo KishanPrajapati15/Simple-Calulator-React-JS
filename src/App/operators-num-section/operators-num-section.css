@@ -1,0 +1,59 @@
+.operators-num-section {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(5, 60px);
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.operators-num-section > button {
+  border: dotted;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+
+.clear-buttons {
+  background-color: #a6a7a6;
+  color: #c4d63d;
+}
+
+.clear-buttons:active {
+  background-color: white;
+}
+
+.operators {
+  background-color: #003ffe;
+  color: white;
+}
+
+.operators:active {
+  background-color: #8700fe63;
+}
+
+.numbers {
+  background-color: #5f5b5b;
+  color: #dadbdc;
+}
+
+.numbers:active {
+  background-color: #e8eaeb;
+}
+
+.operators-num-section > button:nth-child(12) {
+  grid-area: 3/4/6/4;
+  width: 4vw;
+  font-size: 4rem;
+}
+
+.operators-num-section > button:nth-last-child(1) {
+  height: 8vh;
+  width: 9vw;
+  align-self: center;
+  justify-self: center;
+  grid-area: 5/2/5/4;
+  font-size: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
